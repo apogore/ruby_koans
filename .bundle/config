@@ -1,2 +1,2 @@
 ---
-BUNDLE_PATH: "install"
+BUNDLE_PATH: "vendor/cache"
