@@ -10,7 +10,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   minitest (= 5.23.1)
-  rake
+  rake (= 13.2.1)
 
 BUNDLED WITH
    2.5.10
