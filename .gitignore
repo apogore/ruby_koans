@@ -1,6 +1,0 @@
-dist
-.project_env.rc
-.rvmrc
-.ruby-version
-*.rbc
-*~
