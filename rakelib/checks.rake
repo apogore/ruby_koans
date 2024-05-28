@@ -3,8 +3,8 @@ namespace "check" do
   desc "Check that the require files match the about_* files"
   task :abouts do
     about_files = Dir['src/about_*.rb'].size
-    # about_requires = `grep require src/path_to_enlightenment.rb | wc -l`.to_i
-    about_requires = `findstr /R /C:"require" src\\path_to_enlightenment.rb | find /C /V ""`.to_i
+    about_requires = `grep require src/path_to_enlightenment.rb | wc -l`.to_i
+    # about_requires = `findstr /R /C:"require" src\\path_to_enlightenment.rb | find /C /V ""`.to_i
 
     puts "Checking path_to_enlightenment completeness"
     puts "# of about files:    #{about_files}"
@@ -21,9 +21,9 @@ namespace "check" do
   task :asserts do
     puts "Checking for asserts missing the replacement text:"
     begin
-      # `egrep -n 'assert( |_)' src/about_*.rb | egrep -v '__|_n_|project|about_assert' | egrep -v ' *#'`
+      sh`egrep -n 'assert( |_)' src/about_*.rb | egrep -v '__|_n_|project|about_assert' | egrep -v ' *#'`
 
-      sh `findstr /n "assert " src\\about_*.rb | findstr /v "__ _n_ project about_assert" | findstr /v " *#"`
+      # sh `findstr /n "assert " src\\about_*.rb | findstr /v "__ _n_ project about_assert" | findstr /v " *#"`
       puts "Examine the above lines for missing __ replacements"
     rescue RuntimeError
       puts "OK"
