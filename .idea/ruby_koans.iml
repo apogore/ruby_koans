@@ -29,84 +29,14 @@
       <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/install" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
     </content>
     <orderEntry type="jdk" jdkName="ruby-3.2.4-p170" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="minitest (v5.23.1) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="minitest" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1" />
-          <option name="version" value="5.23.1" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1/test" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1/test" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/minitest-5.23.1/test" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="rake (v13.2.1) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="rake" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1" />
-          <option name="version" value="13.2.1" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/doc" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/exe" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/doc" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/exe" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/lib" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/doc" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0/gems/rake-13.2.1/exe" />
-        </excluded>
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.5.10, ruby-3.2.4-p170) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.23.1, ruby-3.2.4-p170) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v13.2.1, ruby-3.2.4-p170) [gem]" level="application" />
   </component>
   <component name="RakeTasksCache-v2">
     <option name="myRootTask">
