@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'bundler'
-gem 'rake'
+gem 'rake', '13.2.1'
 gem 'minitest', '5.23.1'
 
 
